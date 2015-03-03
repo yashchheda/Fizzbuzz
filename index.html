@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+  <head>
+	<meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+    <title>FizzBuzz!</title>
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<script type="text/javascript">
+		var obj = {divisibleByThree: "foo", divisibleByFive: "bar"};
+	</script>
+  </head>
+	<body>
+		<table>
+			<tr>
+			  <td style="vertical-align:top;">
+				<div>
+					<form>
+						<input type="button" value="Question 1" onclick="fizzbuzz_1();">
+					</form>
+					<div id="div1"></div>
+				</div>
+			  </td>
+			  <td style="vertical-align:top;">
+				<div>
+					<form>
+						<input type="button" value="Question 2" onclick="fizzbuzz_2(200,300);">
+					</form>
+					<div id="div2"></div>
+				</div>
+			  </td>
+			  <td style="vertical-align:top;">
+				<div>
+					<form>
+						<input type="button" value="Question 3" onclick="fizzbuzz_3([101, 102, 103, 104, 105, 106, 107,108, 109, 110, 111, 112, 113, 114, 115]);">
+					</form>
+					<div id="div3"></div>
+				</div>
+			  </td>
+			  <td style="vertical-align:top;">
+				<div>
+					<form>
+						<input type="button" value="Question 4" onclick='fizzbuzz_4({divisibleByThree: "foo", divisibleByFive: "bar"});'/>
+					</form>
+					<div id="div4"></div>
+				</div>
+			  </td>
+			  <td style="vertical-align:top;">
+				<div>
+					<form>
+						<input type="button" value="Question 5" onclick="fizzbuzz_5([101, 102, 103, 104, 105, 106, 107,108, 109, 110, 111, 112, 113, 114, 115], obj);"/>
+					</form>
+					<div id="div5"></div>
+				</div>
+			  </td>
+			</tr>
+		</table>
+		<script src="fizz.js"></script>
+	</body> 
+</html>
